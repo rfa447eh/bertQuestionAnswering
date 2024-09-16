@@ -1,0 +1,62 @@
+[{
+    'context': ['RunSensible’s Matters feature offers a centralized system for managing all aspects of legal cases, allowing you to organize and track important details in one place. This system securely stores all case-related documents, such as legal briefs, contracts, and court filings, making them easily accessible when needed. It also helps maintain a comprehensive record of communications, including client interactions and opposing counsel correspondence. The feature tracks important deadlines like court dates and filing schedules, with reminders and task management tools to ensure nothing is missed. By breaking down cases into manageable tasks, you can monitor progress and stay organized throughout the legal process, keeping all relevant information, documents, and timelines in one location for efficient case management.'],
+    'question': ['What does the Matters feature in RunSensible allow you to do when managing legal cases?'],
+    'answers': [{'text': 'organize and track important details in one place', 'answer_start': 137}]
+},
+ {
+    'context': ['To access and manage your legal cases, start by clicking on Matters located in the menu on the right side of your screen. This will bring up a list of all the cases you have previously created. To create a new matter in the system, begin by clicking the New button located in the top right corner of the screen. This will open a form where you can enter the required information about the new matter. The form will ask for essential details such as the matter name, matter number, and court file number, which should be entered in their respective fields. These fields allow you to provide a clear identification for the matter, ensuring that it can be easily referenced and tracked later.'],
+    'question': ['How can you create a new matter in the system, and what essential details must be entered in the form?'],
+    'answers': [{'text': 'To create a new matter in the system, begin by clicking the New button located in the top right corner of the screen. The form will ask for essential details such as the matter name, matter number, and court file number, which should be entered in their respective fields', 'answer_start': 128}]
+},
+{
+    'context': ['Next, you will need to assign a responsible attorney for the matter. To do this, locate the Responsible Attorney dropdown menu within the form. Clicking on this menu will display a list of all the users registered in the system. From the list, choose the attorney who will be responsible for managing the matter. After assigning the attorney, you’ll need to link the client associated with the matter. To select the client, click on the Client dropdown menu, which will present a list of all the contacts stored in your system. From this list, choose the contact involved in the matter you’re creating.'],
+    'question': ['How do you assign a responsible attorney and link a client to a new matter?'],
+    'answers': [{'text': ' locate the Responsible Attorney dropdown menu within the form. Clicking on this menu will display a list of all the users registered in the system. From the list, choose the attorney who will be responsible for managing the matter. After assigning the attorney, you’ll need to link the client associated with the matter. To select the client, click on the Client dropdown menu, which will present a list of all the contacts stored in your system. From this list, choose the contact involved in the matter you’re creating.', 'answer_start': 0}]
+},
+        {
+    'context': ['Once the client is selected, you must assign the appropriate matter pipeline. The pipeline helps categorize and track the progress of different types of cases. To choose a pipeline, click on the Pipeline dropdown menu and select the one that best matches the nature of the matter. Different types of legal cases may require different pipelines, so it’s important to select the one most relevant to the matter at hand, ensuring that the case will follow a suitable workflow for effective management.'],
+    'question': ['What is the importance of assigning an appropriate matter pipeline, and how do you select it?'],
+    'answers': [{'text': 'The pipeline helps categorize and track the progress of different types of cases. To choose a pipeline, click on the Pipeline dropdown menu and select the one that best matches the nature of the matter.', 'answer_start': 78}]
+},
+  {
+    'context': ['Additionally, you have the option to set a budget for the matter within the form. In the Budget box at the top of the form, you can specify the financial resources allocated for handling the case, including projected costs for legal fees, expenses, and other related costs. Defining a budget helps you plan and manage the financial aspects of the matter, ensuring that resources are appropriately allocated and tracked throughout the case.'],
+    'question': ['How can you set a budget for a legal matter, and what should be included in this budget?'],
+    'answers': [{'text': ' In the Budget box at the top of the form, you can specify the financial resources allocated for handlin 0g the case, including projected costs for legal fees, expenses, and other related costs', 'answer_start':81}]
+},
+        {
+    'context': ['Some context text...'],
+    'question': ['What are the key dates to track when managing a legal matter, and why are they important?'],
+    'answers': [        {
+            'text': 'The Open Date is the first of these, recording the exact moment the case is initiated. This date signifies the official start of the legal process. ',
+            'answer_start': 104
+        },
+        {
+            'text': 'closing date, which serves as a crucial deadline for concluding the case.',
+            'answer_start': 277
+        },
+        {
+            'text': 'Pending Date, which refers to upcoming deadlines or significant events scheduled as the case moves forward. ',
+            'answer_start': 760
+        },
+        {
+            'text': 'Limitation Date, which represents the last day by which legal action must be initiated if you wish to pursue a claim or lawsuit. ',
+            'answer_start': 1197
+        }]
+},
+        {
+    'context': ['Next to the Limitation Date box, there is a toggle button labeled Status of Limitation. By switching this toggle to On, the system will notify you when the matter is approaching the specified limitation date. This feature is designed to ensure that you are alerted well in advance, giving you time to take any necessary actions before the limitation deadline expires. The notification system helps prevent missed deadlines and ensures that you stay on top of important legal timeframes related to the matter.'],
+    'question': ['How do you use the Status of Limitation toggle?'],
+    'answers': [{'text': 'Next to the Limitation Date box, there is a toggle button labeled Status of Limitation. By switching this toggle to On, the system will notify you when the matter is approaching the specified limitation date.', 'answer_start': 0}]
+},
+        {
+    'context': ['At the bottom of the form, you will find the Permission section. This section allows you to control which users have access to the matter. By default, the permission is set to All, meaning that all users in your system will be able to view and access this matter.If you want to restrict access so that only the responsible attorney can see the matter, you can set the permission to Handler. This option ensures that only the user designated as the responsible attorney has access to the matter.Alternatively, if you want to grant access to a specific team, you can set the permission to Team. When you select this option, a dropdown menu will appear, allowing you to choose the team that should have access to the matter. select the appropriate team from the dropdown list.For more information about the teams, refer to the Team Management help file. If you need to limit access to a particular user, you can set the permission to Users. Once selected, a dropdown menu will appear, where you can choose the specific user who should have access to the matter. This option is useful if you want to ensure that only a certain user can view and manage the matter.Once all the necessary fields are filled out accurately, click the Save button, also located in the top right corner, to add the new case to your matters list.'],
+    'question': ['How do you set user permissions for a matter?'],
+    'answers': [{'text': 'At the bottom of the form, you will find the Permission section. This section allows you to control which users have access to the matter.', 'answer_start': 0}]
+},
+        {
+    'context': ['After clicking the Save button, you may encounter a warning indicating a potential conflict of interest. This warning will be triggered if the system detects a conflict between your current matter and existing contacts. When this occurs, a list will appear displaying the names of the contacts with whom the conflict exists. You can click on each name in the list to view their detailed information panel, allowing you to understand the nature of the conflict. Once this warning appears, you have a couple of options. On the lower right side of the screen, you will see a Cancel button, which you can click to stop the process and review the situation further. Alternatively, if you wish to proceed despite the conflict, you can check the Conflict of Interest Checked checkbox. This action will cause an OK button to appear next to the Cancel button. By clicking the OK button, you can confirm your decision to save the matter with the conflict of interest acknowledged.Once your matter is saved, it will be added to the Matter List, where all your cases are organized and accessible. Within the Matter List, you can view your matters in one of two modes: Table View or Board View.'],
+    'question': ['What should you do when encountering a conflict of interest when saving a new matter?'],
+    'answers': [{'text': 'When this occurs, a list will appear displaying the names of the contacts with whom the conflict exists. You can click on each name in the list to view their detailed information panel, allowing you to understand the nature of the conflict.', 'answer_start': 220}]
+}
+
+]
