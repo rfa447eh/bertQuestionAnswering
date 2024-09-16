@@ -6,25 +6,6 @@ fine-tune a BERT moder for Question Answering (QA ) on a custom datasets
 
 This project fine-tunes a BERT model for Question Answering (QA) on a custom legal dataset. It includes functions for training, inference, and testing using `pytest`.
 
-## File Structure
-
-```plaintext
-my_project/
-│
-├── src/                  # Source files for the BERT QA system
-│   ├── model.py          # Contains code for loading the BERT model and tokenizer
-│   ├── data_loader.py    # Handles dataset loading and preprocessing
-│   └── qa.py             # Core logic for answering questions with the fine-tuned model
-│
-├── tests/                # Automated test cases using pytest
-│   └── test_qa_model.py  # Contains unit tests for the QA system
-│
-├── data/                 # Directory for storing datasets or other files
-│   └── your_data.json    # (Example) JSON file with training and test data
-│
-├── README.md             # Project documentation (this file)
-├── requirements.txt      # Python dependencies for the project
-└── .gitignore            # Files and directories to ignore in GitProject instructions └── requirements.txt # Project dependencies
 
 
 ## How to Run the Project
@@ -52,3 +33,23 @@ Follow the instructions in the qa.py file to fine-tune the BERT model on your da
 
 You can use pytest to run the tests and ensure everything is working properly.
 pytest test_qa_model.py
+
+## File Structure
+
+```plaintext
+my_project/
+│
+├── src/                  # Source files for the BERT QA system
+│   ├── model.py          # Contains code for loading the BERT model and tokenizer
+│   ├── data_loader.py    # Handles dataset loading and preprocessing
+│   └── qa.py             # Core logic for answering questions with the fine-tuned model
+│
+├── tests/                # Automated test cases using pytest
+│   └── test_qa_model.py  # Contains unit tests for the QA system
+│
+├── data/                 # Directory for storing datasets or other files
+│   └── your_data.json    # (Example) JSON file with training and test data
+│
+├── README.md             # Project documentation (this file)
+├── requirements.txt      # Python dependencies for the project
+└── .gitignore            # Files and directories to ignore in Git
