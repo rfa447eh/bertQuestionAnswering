@@ -1,5 +1,6 @@
-from transformers import BertTokenizerFast
+
 from torch.utils.data import Dataset
+import json
 
 class LegalDataset(Dataset):
     def __init__(self, data, tokenizer, max_len=512):
@@ -45,6 +46,4 @@ class LegalDataset(Dataset):
             'end_positions': torch.tensor(end_positions[0])
         }
 
-# Example usage
-tokenizer = BertTokenizerFast.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
-train_dataset = LegalDataset(data, tokenizer)
+

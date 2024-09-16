@@ -22,14 +22,14 @@ def process_paragraphs(paragraphs):
     for para in paragraphs:
         if para.startswith("What") or para.startswith("How"):
             specific_paragraphs.append(para)
-            remaining_paragraphs.append(para)
+            # remaining_paragraphs.append(para)
         else:
             remaining_paragraphs.append(para)
 
     return specific_paragraphs, remaining_paragraphs
 
 # Path to the .docx file
-file_path = './MatterOverview.docx'
+file_path = './data/MatterOverview.docx'
 
 # Read the content of the .docx file
 paragraphs = read_docx(file_path)
@@ -42,12 +42,12 @@ specific_paragraphs_text = '\n'.join(specific_paragraphs)
 remaining_paragraphs_text = '\n'.join(remaining_paragraphs)
 
 # Print the results
-print("Specific Paragraphs:")
-print(specific_paragraphs_text)
-print("\nRemaining Paragraphs:")
-print(remaining_paragraphs_text)
+# print("Specific Paragraphs:")
+# print(specific_paragraphs_text)
+# print("\nRemaining Paragraphs:")
+# print(remaining_paragraphs_text)
 
-# Optional: Save the specific paragraphs to a new .docx file
+# Save the specific paragraphs to a new .docx file
 from docx import Document as DocxDocument
 
 def save_paragraphs_to_docx(paragraphs, file_path):
@@ -57,7 +57,8 @@ def save_paragraphs_to_docx(paragraphs, file_path):
     doc.save(file_path)
 
 # Path for saving the specific paragraphs
-output_file_path = './SpecificParagraphs.docx'
+output_file_path = './data/SpecificParagraphs.docx'
+output_file_path2 = './data/remaining_paragraphs.docx'
 save_paragraphs_to_docx(specific_paragraphs, output_file_path)
-
+save_paragraphs_to_docx(remaining_paragraphs, output_file_path2)
 
