@@ -6,6 +6,7 @@ fine-tuen a BERT moder for Question Answering (QA ) on a custom datasets
 
 This project fine-tunes a BERT model for Question Answering (QA) on a custom legal dataset. It includes functions for training, inference, and testing using `pytest`.
 
+
 ## File Structure
 
 project/ │ ├── model.py # Code for loading BERT model and tokenizer ├── data_loader.py # Custom Dataset and DataLoader implementation ├── qa.py # Function for answering questions using the model ├── test_qa_model.py # Pytest test cases for the QA model ├── README.md # Project instructions └── requirements.txt # Project dependencies
