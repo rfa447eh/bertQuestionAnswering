@@ -4,10 +4,12 @@ from torch.utils.data import DataLoader
 from transformers import BertTokenizerFast
 from data_loader import LegalDataset
 import torch
+import json
+
 
 def main():
     # Load the JSON data
-    file_path = './data/your_file.json'
+    file_path = './data/data.json'
     with open(file_path, 'r') as file:
         data = json.load(file)
 
@@ -33,7 +35,7 @@ def main():
 
     # Training loop
     model.train()
-    epochs = 3
+    epochs = 5
 
     for epoch in range(epochs):
         total_loss = 0
