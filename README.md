@@ -17,7 +17,7 @@ project/ │ ├── model.py # Code for loading BERT model and tokenizer ├�
 
 
 
-git clone https://github.com/your-repo/question-answering-bert.git
+git clone https://github.com/rfa447eh/bertQuestionAnswering.git
 cd question-answering-bert
 
 
