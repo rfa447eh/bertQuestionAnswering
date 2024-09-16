@@ -1,6 +1,6 @@
 # bertQuestionAnswering
-fine-tuen a BERT moder for Question Answering (QA ) on a custom datasets
-
+fine-tune a BERT moder for Question Answering (QA ) on a custom datasets
+<a href="https://colab.research.google.com/drive/1JEYuy_tzeT7sO9cLg2gv2zVDRPMo8wwp?usp=sharing">
 
 # Question Answering with BERT
 
@@ -8,7 +8,23 @@ This project fine-tunes a BERT model for Question Answering (QA) on a custom leg
 
 ## File Structure
 
-project/ │ ├── model.py # Code for loading BERT model and tokenizer ├── data_loader.py # Custom Dataset and DataLoader implementation ├── qa.py # Function for answering questions using the model ├── test_qa_model.py # Pytest test cases for the QA model ├── README.md # Project instructions └── requirements.txt # Project dependencies
+```plaintext
+my_project/
+│
+├── src/                  # Source files for the BERT QA system
+│   ├── model.py          # Contains code for loading the BERT model and tokenizer
+│   ├── data_loader.py    # Handles dataset loading and preprocessing
+│   └── qa.py             # Core logic for answering questions with the fine-tuned model
+│
+├── tests/                # Automated test cases using pytest
+│   └── test_qa_model.py  # Contains unit tests for the QA system
+│
+├── data/                 # Directory for storing datasets or other files
+│   └── your_data.json    # (Example) JSON file with training and test data
+│
+├── README.md             # Project documentation (this file)
+├── requirements.txt      # Python dependencies for the project
+└── .gitignore            # Files and directories to ignore in GitProject instructions └── requirements.txt # Project dependencies
 
 
 ## How to Run the Project
