@@ -15,23 +15,24 @@ project/ │ ├── model.py # Code for loading BERT model and tokenizer ├�
 
 ### Step 1: Clone the Project
 
-```bash
+
+
 git clone https://github.com/your-repo/question-answering-bert.git
-cd question-answering-bert'''
+cd question-answering-bert
 
 
 ### Step 2: Install the Dependencies
 
-```bash
-pip install -r requirements.txt'''
+
+pip install -r requirements.txt
+
 
 ### Step 3: Fine-tune the Model (if needed)
-```bash
+
 Follow the instructions in the qa.py file to fine-tune the BERT model on your dataset.
-'''
+
 
 ### Step 4: Run Tests
-```bash
+
 You can use pytest to run the tests and ensure everything is working properly.
 pytest test_qa_model.py
-'''
