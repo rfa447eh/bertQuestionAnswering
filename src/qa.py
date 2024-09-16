@@ -32,6 +32,7 @@ def get_answer(question, context, model, tokenizer, device):
             if answer_score > best_score:
                 best_score = answer_score
                 best_answer = answer
+            
 
     return best_answer
 

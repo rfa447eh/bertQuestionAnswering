@@ -2,7 +2,7 @@ from torch.utils.data import DataLoader
 from transformers import AdamW, BertForQuestionAnswering, DataCollatorWithPadding
 from torch.utils.data import DataLoader
 from transformers import BertTokenizerFast
-from data_loader import data_loader.LegalDataset
+from data_loader import LegalDataset
 import torch
 
 def main():
